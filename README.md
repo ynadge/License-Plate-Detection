@@ -7,6 +7,8 @@ We explore different techniques in object identification, and compare our model 
 
 Manually extracting and identifying license plates can be very tedious and time consuming, especially given the vast amount of footage captured by surveillance cameras at intersections and the many vehicles that appear in each frame. However, this information is extremely valuable for various applications, such as monitoring traffic, locating stolen vehicles, tracking suspects, identifying unregistered cars, managing tolls, overseeing parking, and more. Developing a model capable of reading all license plates in a video or image, in partnership with police resources, such as stolen or missing vehicle databases, can help optimize the allocation of police resources and improve public safety.
 
+Read the full project report for a complete analysis!
+
 ## Getting Started
 
 ### Dependencies
