@@ -33,7 +33,10 @@ streamlit run main.py
 
 ## Authors 
 [Yash Nadge](https://github.com/ynadge)
+
 [Shauna Blomgren](https://github.com/svblomg)
+
 [Brian Ramos-Lopez](https://github.com/bframos8)
+
 [Hanna Koo](https://github.com/hannnakoo)
 
