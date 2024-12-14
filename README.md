@@ -16,11 +16,11 @@ Manually extracting and identifying license plates can be very tedious and time 
 
 ### Installing
 
-* Cloning the repo:
+Cloning the repo:
 ```
 https://github.com/ynadge/License-Plate-Detection.git
 ```
-* Installing Dependencies:
+Installing Dependencies:
   ```
   cd License-Plate-Detection
   pip install -r requirements.txt
