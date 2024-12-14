@@ -1,65 +1,39 @@
 # Car License Plate Detection using YOLOv5 and EasyOCR
 
-Utilizing machine learning and computer vision techniques to create
-a model that can correctly identify a car license plate from an image or video. We explore different
-techniques in object identification, and compare our model to technology that has been deployed in
-the real world.
+Utilizing machine learning and computer vision techniques to create a model that can correctly identify a car license plate from an image or video. 
+We explore different techniques in object identification, and compare our model to technology that has been deployed in the real world.
 
-## Description
+## Motivation and Problem Significance
 
-An in-depth paragraph about your project and overview of use.
+Manually extracting and identifying license plates can be very tedious and time consuming, especially given the vast amount of footage captured by surveillance cameras at intersections and the many vehicles that appear in each frame. However, this information is extremely valuable for various applications, such as monitoring traffic, locating stolen vehicles, tracking suspects, identifying unregistered cars, managing tolls, overseeing parking, and more. Developing a model capable of reading all license plates in a video or image, in partnership with police resources, such as stolen or missing vehicle databases, can help optimize the allocation of police resources and improve public safety.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Model Development: Numpy, Pandas, OpenCV, Pillow, matplotlib, sklearn, tensorflow, easyocr, pytorch
+* Model Deployment: streamlit
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Cloning the repo:
+```
+https://github.com/ynadge/License-Plate-Detection.git
+```
+* Installing Dependencies:
+  ```
+  cd License-Plate-Detection
+  pip install -r requirements.txt
+  ```
 
 ### Executing program
-
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+streamlit run main.py
 ```
 
-## Help
+## Authors 
+[Yash Nadge](https://github.com/ynadge)
+[Shauna Blomgren](https://github.com/svblomg)
+[Brian Ramos-Lopez](https://github.com/bframos8)
+[Hanna Koo](https://github.com/hannnakoo)
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
