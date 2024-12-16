@@ -20,7 +20,7 @@ Read the full project report for a complete analysis!
 
 Cloning the repo:
 ```
-https://github.com/ynadge/License-Plate-Detection.git
+git clone https://github.com/ynadge/License-Plate-Detection.git
 ```
 Installing Dependencies:
   ```
